@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+}
+label {
+  text-decoration-color: lightblue;
+  color: lightgreen;
+}
+
+#main_title{
+  color:white;
+  position: relative;
+  text-align: center;
+}
+.columns {
+  float: left;
+  width:50%;
+  font-size: large;
+  font-family: "Courier New", monospace;
+}
+
+.result {
+  color: lightblue;
+}
+
+.notes {
+  color: white;
+  position: relative;
+  float: right;
+}
+
+.images {
+  width: 100px;
+  left: 50%;
+}

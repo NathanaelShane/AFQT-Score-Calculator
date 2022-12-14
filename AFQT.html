@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AFQT Predicter</title>
+  <link rel="stylesheet" href="AFQT.css">
+</head>
+<script src = AFQT.js></script>
+<body>
+  <h1 id = "main_title">AFQT PERCENTILE CALCULATOR</h1>
+  <div class = columns>
+      <div class = "inputs">
+        <input id ="AR" type="number">
+        <label for ="AR">Arithmetic Reasoning</label>
+          <br>
+        <input id ="MK" type="number">
+        <label for ="MK">Mathematics Knowledge</label>
+          <br>
+        <input id="PC" type="number">
+        <label for = "PC">Paragraph Comprehension</label>
+          <br>
+        <input id="WK" type="number">
+        <label for = "WK">Word Knowledge</label>
+          <br>
+        <button class = "button" onclick ="ScaledAR(); ScaledMK(); VE(); AFQT()">Calculate</button>
+      </div>
+      <div class = "result">
+          <p> Percentile: </p>
+          <p id="Percentile"></p>
+      </div>
+    </div>
+    <div class = "columns">
+      <ul class = "notes">
+        <h3>Please Note:</h3>
+          <li>This program automates the universally used process for calculating one's percentile for the AFQT</li>
+          <li>Input the number of correctly answered questions in each section of the AFQT before hitting "Calculate"</li>
+          <ul>Arithmetic Reasoning is out of 30</ul>
+          <ul>Mathematics Knowledge is out of 25</ul>
+          <ul>Paragraph Comprehension is out of 15</ul>
+          <ul>Word Knowledge is out of 35</ul>
+          <li>96 is the highest possible score in this calculation because on the real AFQT/ASVAB, extra points are awarded for more difficult test items and there is no distinction when using this calculator.</li>
+          <li>This calculator can be used with any test that has the appropriate amount of test items for each section.</li>
+          <li>If a practice test does not have the correct amount of test items, you may use a percentage to scale it to the necessary size.</li>
+      </ul>
+    </div>
+  <div class="images">
+    <img align = "middle" src="https://static.wixstatic.com/media/d9f8bf_08a626ad41834cfdb5011a94ce981f6b~mv2.png/v1/crop/x_290,y_249,w_879,h_565/fill/w_598,h_360,al_c,q_85,usm_0.66_1.00_0.01/FollowMeWhiteNoLink.webp" alt="Oregon Army National Guard">
+  </div>
+</body>
+</html>
